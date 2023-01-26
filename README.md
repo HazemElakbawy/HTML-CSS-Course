@@ -5,10 +5,10 @@ This repo is related to : `Build Responsive Real-World Websites with HTML and CS
 Instructor : `Jonas Schmedtmann`
 
 ## Course Contents
-- Introduction
-- HTML-Fundamentals
-- CSS-Fundamentals
-- CSS-Layouts
+- Introduction ✅
+- HTML-Fundamentals ✅
+- CSS-Fundamentals ✅
+- CSS-Layouts ✅
 - Design
 - Components
 - Omnifood-Desktop

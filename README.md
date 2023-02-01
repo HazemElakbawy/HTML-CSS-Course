@@ -9,7 +9,7 @@ Instructor : `Jonas Schmedtmann`
 - HTML-Fundamentals ✅
 - CSS-Fundamentals ✅
 - CSS-Layouts ✅
-- Design
+- Design ✅
 - Components
 - Omnifood-Desktop
 - Omnifood-Responsive

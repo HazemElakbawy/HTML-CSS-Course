@@ -10,45 +10,141 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="CSS/general.css" />
     <link rel="stylesheet" href="CSS/style.css" />
     <title>Omnifood</title>
   </head>
   <body>
-    <section class="section-hero">
-      <div class="hero">
-        <div class="hero-text-box">
-          <h1 class="primary-heading">
-            A healthy meal delivered to your door, every single day
-          </h1>
-          <p class="hero-text">
-            The smart 365-days-per-year food subscription that will make you eat
-            healthy again. Tailored to your personal tastes and nutritional
-            needs.
-          </p>
-          <a href="#" class="btn btn-cta mar-ri-prop">Start eating well</a>
-          <a href="#" class="btn btn-add">Learn more &darr;</a>
-          <div class="delivered-meals">
-            <div class="customer-img">
-              <img src="/img/customers/customer-1.jpg" alt="customer photo" />
-              <img src="/img/customers/customer-2.jpg" alt="customer photo" />
-              <img src="/img/customers/customer-3.jpg" alt="customer photo" />
-              <img src="/img/customers/customer-4.jpg" alt="customer photo" />
-              <img src="/img/customers/customer-5.jpg" alt="customer photo" />
-              <img src="/img/customers/customer-6.jpg" alt="customer photo" />
-            </div>
-            <p class="delivered-text">
-              <span>250,000+</span> meals delivered last year!
+    <header class="header">
+      <img src="/img/omnifood-logo.png" alt="omnifood-logo" />
+      <nav class="header-nav">
+        <ul class="header-ul">
+          <li>
+            <a href="#" class="header-link">Section 1</a>
+          </li>
+          <li>
+            <a href="#" class="header-link">Section 2</a>
+          </li>
+          <li>
+            <a href="#" class="header-link">Section 3</a>
+          </li>
+          <li>
+            <a href="#" class="header-link">Section 4</a>
+          </li>
+          <li>
+            <a href="#" class="header-link nav-cta">Section 5</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="primary-heading all-heading">
+              A healthy meal delivered to your door, every single day
+            </h1>
+            <p class="hero-text">
+              The smart 365-days-per-year food subscription that will make you
+              eat healthy again. Tailored to your personal tastes and
+              nutritional needs.
             </p>
+            <a href="#" class="btn btn-cta margin-right">Start eating well</a>
+            <a href="#" class="btn btn-add">Learn more &darr;</a>
+            <div class="delivered-meals">
+              <div class="customer-img">
+                <img src="/img/customers/customer-1.jpg" alt="customer photo" />
+                <img src="/img/customers/customer-2.jpg" alt="customer photo" />
+                <img src="/img/customers/customer-3.jpg" alt="customer photo" />
+                <img src="/img/customers/customer-4.jpg" alt="customer photo" />
+                <img src="/img/customers/customer-5.jpg" alt="customer photo" />
+                <img src="/img/customers/customer-6.jpg" alt="customer photo" />
+              </div>
+              <p class="delivered-text">
+                <span>250,000+</span> meals delivered last year!
+              </p>
+            </div>
+          </div>
+          <div class="img-box">
+            <img
+              class="hero-img"
+              src="/img/hero.png"
+              alt="A woman enjoying food and some food"
+            />
           </div>
         </div>
-        <div class="img-box">
-          <img
-            class="hero-img"
-            src="/img/hero.png"
-            alt="A woman enjoying food and some food"
-          />
+      </section>
+      <section class="section-steps">
+        <div class="container">
+          <span class="sub-heading">How it Works</span>
+          <h2 class="secondary-heading all-heading">
+            Your daily dose of health in 3 simple steps
+          </h2>
         </div>
-      </div>
-    </section>
+
+        <div class="container grid grid-2-cols grid-center">
+          <!--? STEP 01 -->
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="tertiary-heading all-heading">
+              Tell us what you like (and what not)
+            </h3>
+            <p class="step-text">
+              Never again waste time thinking about what to eat! Omnifood AI
+              will create a 100% personalized weekly meal plan just for you. It
+              makes sure you get all the nutrients and vitamins you need, no
+              matter what diet you follow!
+            </p>
+          </div>
+          <div class="container-img">
+            <img
+              class="step-img"
+              src="/img/app/app-screen-1.png"
+              alt="iphone screen"
+            />
+          </div>
+
+          <!--? STEP 02 -->
+          <div class="container-img">
+            <img
+              class="step-img"
+              src="/img/app/app-screen-2.png"
+              alt="iphone screen"
+            />
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="tertiary-heading all-heading">
+              Approve your weekly meal plan
+            </h3>
+            <p class="step-text">
+              Once per week, approve the meal plan generated for you by Omnifood
+              AI. You can change ingredients, swap entire meals, or even add
+              your own recipes.
+            </p>
+          </div>
+
+          <!--? STEP 03 -->
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="tertiary-heading all-heading">
+              Receive meals at convenient time
+            </h3>
+            <p class="step-text">
+              Best chefs in town will cook your selected meal every day, and we
+              will deliver it to your door whenever works best for you. You can
+              change delivery schedule and address daily!
+            </p>
+          </div>
+          <div class="container-img">
+            <img
+              class="step-img"
+              src="/img/app/app-screen-3.png"
+              alt="iphone screen"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

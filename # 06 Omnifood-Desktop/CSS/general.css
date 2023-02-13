@@ -31,7 +31,9 @@ body {
 * ******************************
 */
 
-.all-heading {
+.primary-heading,
+.secondary-heading,
+.tertiary-heading {
   font-weight: 700;
   color: #333;
   letter-spacing: -0.5px;
@@ -140,6 +142,24 @@ body {
   align-items: center;
 }
 
+/* 
+* ****************************** 
+!        HELPER CLASSES
+* ******************************
+*/
+
 .margin-right {
   margin-right: 1.6rem !important;
+}
+
+.margin-bottom {
+  margin-bottom: 3.2rem;
+}
+
+.center-text {
+  text-align: center;
+}
+
+strong {
+  font-weight: 500;
 }

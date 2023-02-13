@@ -201,6 +201,7 @@
 .section-featured {
   padding: 4.8rem 0 3.2rem 0;
 }
+
 .featured-images {
   display: flex;
   justify-content: space-around;
@@ -216,4 +217,126 @@
 .featured-images img:hover {
   opacity: 100%;
   filter: brightness(1);
+}
+
+/*
+* ***************************
+!         MEAl CARDS
+* ***************************
+*/
+
+.section-meals {
+  padding: 9.6rem 0;
+}
+
+.meal-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.meal-card {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.meal-card:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.icon-meal {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #e67e22;
+}
+
+.meal-img {
+  width: 100%;
+}
+
+.tag-container {
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #333;
+  border-radius: 100px;
+}
+
+.tag--1 {
+  background-color: #50f26b;
+}
+
+.tag--2 {
+  background-color: #94d82d;
+}
+
+.tag--3 {
+  background-color: #ffd43b;
+}
+
+.meal-title {
+  color: #333;
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.meal-description {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.meal-description li {
+  font-size: 1.8rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.icon-list {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  font-size: 1.8rem;
+}
+
+.all-recipes {
+  text-align: center;
+}
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #e67e22;
+  padding-bottom: 2px;
+  border-bottom: 1px solid currentColor;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
 }
